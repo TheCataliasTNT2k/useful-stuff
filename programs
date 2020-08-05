@@ -1,0 +1,37 @@
+i3lock-color
+
+
+
+betterlockscreen 		not used
+anki				not used
+
+SYSTEM:
+htop				task manager
+iotop				show io
+ctop				htop for docker
+
+MEDIA:
+playerctl			control media players
+
+JUST FOR FUN:
+sl				train in terminal
+cmatrix				random hacker animation
+nms				pipe input into it and get a hacker animation, return to start animation (no-more-secrets)
+sneakers			hacker animation as well, part of nms
+gource				graphical commit animation
+asciiquarium			aquarium in ascii in terminal
+lolcat				pipe input into it to make rainbow text
+termdown 			countdown in terminal
+
+USEFUL:
+bat				better cat
+fd 				find in better
+fzf				interactive finder
+ncdu				show space usage in terminal
+qtqr				generate and decode qrcodes
+rga				better search, also within files
+tldr				better man
+ddcutil				control monitor settings
+dupeguru			gui find duplicates
+exa				better ls -> alias
+unp				extract all archives, which can be extracted (frontend for archive programs, so e.g. tat is needed)
