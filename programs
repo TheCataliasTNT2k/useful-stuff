@@ -35,3 +35,4 @@ ddcutil				control monitor settings
 dupeguru			gui find duplicates
 exa				better ls -> alias
 unp				extract all archives, which can be extracted (frontend for archive programs, so e.g. tat is needed)
+jq				json parser
