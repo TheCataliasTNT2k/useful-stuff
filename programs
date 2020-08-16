@@ -36,3 +36,18 @@ dupeguru			gui find duplicates
 exa				better ls -> alias
 unp				extract all archives, which can be extracted (frontend for archive programs, so e.g. tat is needed)
 jq				json parser
+
+SERVICES:
+bind			dns server
+bitwarden		cloud password manager
+bookstack		wiki
+echoip			ifconfig.co
+heimdall		application dashboard
+mailu			mail server
+mariadb+phpmyadmin
+nextcloud
+nginx			reverse proxy
+openvpn			vpn server
+polr			link shortener
+privatebin		secure pastebin
+sentry
