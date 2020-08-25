@@ -1,0 +1,1 @@
+nmcli dev show enp3s0 | grep IP4

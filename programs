@@ -34,20 +34,24 @@ tldr				better man
 ddcutil				control monitor settings
 dupeguru			gui find duplicates
 exa				better ls -> alias
-unp				extract all archives, which can be extracted (frontend for archive programs, so e.g. tat is needed)
+unp				extract all archives, which can be extracted (frontend for archive programs, so e.g. tar is needed)
 jq				json parser
+mtr				traceroute in better
+bpytop				very cool top / htop alternative
+spotify-tui			simple spotify ui via terminal
 
 SERVICES:
-bind			dns server
-bitwarden		cloud password manager
-bookstack		wiki
-echoip			ifconfig.co
-heimdall		application dashboard
-mailu			mail server
+bind				dns server
+bitwarden			cloud password manager
+bookstack			wiki
+echoip				ifconfig.co
+heimdall			application dashboard
+mailu				mail server
 mariadb+phpmyadmin
 nextcloud
-nginx			reverse proxy
-openvpn			vpn server
-polr			link shortener
-privatebin		secure pastebin
+nginx				reverse proxy
+openvpn				vpn server
+polr				link shortener
+privatebin			secure pastebin
 sentry
+
