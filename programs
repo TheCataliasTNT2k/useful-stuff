@@ -39,6 +39,8 @@ jq				json parser
 mtr				traceroute in better
 bpytop				very cool top / htop alternative
 spotify-tui			simple spotify ui via terminal
+tac				read file "backwards"
+hardinfo			a lot of information about the computer
 
 SERVICES:
 bind				dns server
