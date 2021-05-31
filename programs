@@ -41,6 +41,7 @@ bpytop				very cool top / htop alternative
 spotify-tui			simple spotify ui via terminal
 tac				read file "backwards"
 hardinfo			a lot of information about the computer
+duf                           Disk Usage/Free Utility
 
 SERVICES:
 bind				dns server
