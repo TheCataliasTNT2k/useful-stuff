@@ -41,6 +41,10 @@ bpytop				very cool top / htop alternative
 spotify-tui			simple spotify ui via terminal
 tac				read file "backwards"
 hardinfo			a lot of information about the computer
+glances				?
+brasero				dvd copy
+qemu-arm-static			needed for chroot in arm
+iperf				check speed of conenction between two devices (wlan, lan etc)
 
 SERVICES:
 bind				dns server

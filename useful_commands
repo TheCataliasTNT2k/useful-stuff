@@ -1,1 +1,8 @@
+usermod -a -G input jo
+watch -n 0.5 nvidia-smi pmon -c 1
 nmcli dev show enp3s0 | grep IP4
+httrack --ext-depth=1
+faillock --user jo --reset
+pwgen
+nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader
+sudo arp-scan --localnet
