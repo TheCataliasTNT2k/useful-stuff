@@ -45,6 +45,7 @@ glances				?
 brasero				dvd copy
 qemu-arm-static			needed for chroot in arm
 iperf				check speed of conenction between two devices (wlan, lan etc)
+duf                           Disk Usage/Free Utility
 
 SERVICES:
 bind				dns server
