@@ -1,14 +1,12 @@
 i3lock-color
 
-
-
-betterlockscreen 		not used
-anki				not used
+betterlockscreen 		not used yet
+anki				vocabulary trainer
 
 SYSTEM:
 htop				task manager
 iotop				show io
-ctop				htop for docker
+ctop				htop for docker (use this [GitHub](https://github.com/bcicen/ctop) version, not the version found in apt!)
 
 MEDIA:
 playerctl			control media players
@@ -18,7 +16,7 @@ sl				train in terminal
 cmatrix				random hacker animation
 nms				pipe input into it and get a hacker animation, return to start animation (no-more-secrets)
 sneakers			hacker animation as well, part of nms
-gource				graphical commit animation
+gource				graphical commit animation for git repo
 asciiquarium			aquarium in ascii in terminal
 lolcat				pipe input into it to make rainbow text
 termdown 			countdown in terminal
@@ -26,15 +24,15 @@ termdown 			countdown in terminal
 USEFUL:
 bat				better cat
 fd 				find in better
-fzf				interactive finder
+fzf				interactive, fuzzy finder
 ncdu				show space usage in terminal
 qtqr				generate and decode qrcodes
 rga				better search, also within files
-tldr				better man
+tldr				better man, but not available for all commands
 ddcutil				control monitor settings
-dupeguru			gui find duplicates
+dupeguru			gui for finding duplicate files
 exa				better ls -> alias
-unp				extract all archives, which can be extracted (frontend for archive programs, so e.g. tar is needed)
+unp				extract all archives, which can be extracted (helper for archive programs, so the matching programm (e.g. tar) is needed nevertheless)
 jq				json parser
 mtr				traceroute in better
 bpytop				very cool top / htop alternative
@@ -44,8 +42,9 @@ hardinfo			a lot of information about the computer
 glances				?
 brasero				dvd copy
 qemu-arm-static			needed for chroot in arm
-iperf				check speed of conenction between two devices (wlan, lan etc)
-duf                           Disk Usage/Free Utility
+iperf				check speed of connection between two devices (wlan, lan etc)
+duf                             Disk Usage/Free Utility
+https://tmate.io/		terminal remote access via ssh (for helping friends etc), access to target is needed to start the connection
 
 SERVICES:
 bind				dns server
@@ -54,11 +53,19 @@ bookstack			wiki
 echoip				ifconfig.co
 heimdall			application dashboard
 mailu				mail server
-mariadb+phpmyadmin
-nextcloud
+mariadb+phpmyadmin		mariadb and webadmin software
+nextcloud			cloud software
 nginx				reverse proxy
+traefik				reverse proxy
 openvpn				vpn server
+wireguard			very fast vpn, built into linux since some time
 polr				link shortener
 privatebin			secure pastebin
-sentry
+sentry				issue tracker
+glitchtip			issue tracker
+gitea				open source git server with webfrontend
 
+
+TOOLS:
+https://github.com/angristan/wireguard-install            generate wireguard config
+https://github.com/complexorganizations/wireguard-manager generate wireguard config

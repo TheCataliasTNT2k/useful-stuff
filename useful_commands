@@ -1,8 +1,13 @@
-usermod -a -G input jo
+usermod -a -G GROUP USER
 watch -n 0.5 nvidia-smi pmon -c 1
 nmcli dev show enp3s0 | grep IP4
 httrack --ext-depth=1
-faillock --user jo --reset
+faillock --user USER --reset
 pwgen
 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader
 sudo arp-scan --localnet
+ffmpeg -re -stream_loop -1 -i DATEI -preset ultrafast -tune zerolatency -pkt_size 1316 -flush_packets 0 -c copy -f mpegts "srt://IP:PORT?streamid=input/live/STREAMID"
+ffplay -fflags nobuffer -i "srt://IP:PORT?streamid=output/live/STREAMID"
+ffmpeg -i video\ \(1\).mp4 -c:v h264 -c:a libopus output.mkv
+iperf -i 1 -p 123456 -d -r -t 30 -X -c # CLIENT
+iperf -i 1 -p 123456 -s -t 30          # SERVER
